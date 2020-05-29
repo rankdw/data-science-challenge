@@ -13,7 +13,7 @@ The main idea is to get a decent working model up and running quickly, but some 
 * Does this data set even make sense? What are the limitations of this data set?
 * Is the lookback window of 60 seconds helpful? What are its limitations? What other features would you want to see in this data set?
 * If you stuck with the neural network, what did you change to make it better? Did you change the architecture, did you change the optimizer? The learning rate? The activation function(s)? Why was the model stuck at `0` with an incredibly high root mean squared error?
-* If you used a different model, why'd you choose this model? What about it made it work for this problem? Is this model complicated, or could you explain it to a lay-person? What was your optimizing metric? What were the hyperparameters and why'd you choose them?
+* If you used a different model, why'd you choose this model? What about it made it work for this problem? Is this model complex and if so, is the complexity necessary? Is it intuitive enough to explain it to a lay-person? What was your optimizing metric? What were the hyperparameters and why'd you choose them?
 * Did you include any regularization strategies in your model? If so, why'd you choose the one you did?
 * Did you include visualizations? (everyone loves a good graphic)
 * How do we know the model is good? How understandable are the diagnostics? How will we know how good the model is predicting in production?
